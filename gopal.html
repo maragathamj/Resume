@@ -1,0 +1,240 @@
+Great! Here’s a more detailed and professional personal web page in pure HTML and CSS, ideal for portfolios or resumes. It includes multiple sections like a hero header, about, skills, portfolio, and contact form—all styled to look polished.
+
+You can copy this and customize it with your own content:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maragatham J - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bdc3c7;
+    }
+
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #2c3e50;
+      display: inline-block;
+    }
+
+    .about, .skills, .portfolio, .contact {
+      margin-bottom: 60px;
+    }
+
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 10px;
+    }
+
+    .skills ul li {
+      background: #ecf0f1;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #2c3e50;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body><
+
+  <header>
+    <h1>Maragatham J</h1>
+    <p>Web Developer | UI/UX Designer | Creative Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#Language Known">Language Known</a>
+    <a href="#Education">Education</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I'm a passionate web developer with experience in creating responsive and dynamic websites. I love bringing ideas to life in the browser and creating seamless user experiences. My focus is on front-end development, but I also enjoy working with back-end technologies when needed.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>Python</li>
+      <li>c</li>
+      <li>Java</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>Figma</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A responsive landing page built with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>A to-do app using React and local storage for persistence.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>A blog template connected to a backend API.</p>
+      </div>
+    </div>
+  </section>
+  <section id="Language Known" class="Language Known">
+    <h2 class="section-title">Language Known</h2>
+    <ul>
+      <li>English</li>
+      <li>Tamil</li>
+    </ul>
+  </section>
+
+  <section id="Education" class="Education">
+    <h2 class="section-title">Education</h2>
+    <ol>B.TECH INFORMATION TECHNOLOGY</OL>
+    <ol>AAA COLLEGE OF ENGINEERING AND TECHNOLOGY,
+    Amathur</ol>
+
+      <ol>HSC-2024</ol>
+      <ol>GOVERNMENT GIRLS HIGHER SECONDARY SCHOOL
+      Chatrapatti,Tamilnadu
+      PERCENTAGE:81.1</ol>
+
+      <ol>SSLC-2022</ol>
+      <ol>GOVERNMENT GIRLS HIGHER SECONDARY SCHOOL
+      Chatrapatti,Tamilnadu
+      PERCENTAGE:pass</ol>
+    </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    &copy; 2025 Maragatham | All rights reserved
+  </footer>
+
+</body>
+</html>
+
+Want to make it even more professional?
+
+I can help you:
+
+Add dark mode toggle
+
+Make the contact form functional with JavaScript or backend
+
+Connect to GitHub, LinkedIn, or Behance
+
+Add animation using AOS or Framer Motion
+
+Turn this into a downloadable .zip template
+
+
+Let me know how you'd like to expand it!
